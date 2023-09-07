@@ -10,7 +10,7 @@ function startRotation() {
     rotationInterval = setInterval(function() {
         degrees += 45;
         box.style.transform = `perspective(1000px) rotateY(${degrees}deg)`;
-    }, 2000); // Réglez l'intervalle de rotation ici (2 secondes dans cet exemple)
+    }, 3000); // Réglez l'intervalle de rotation ici (2 secondes dans cet exemple)
 }
 
 // Démarrez la rotation automatique au chargement de la page
