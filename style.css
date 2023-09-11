@@ -60,6 +60,9 @@ img{
     align-items: center;
     cursor: pointer;
 }
+.btns .btn:hover{
+    background: #7e7e7e68;
+}
 .btns .btn:active{
     background: #fff;
 }
